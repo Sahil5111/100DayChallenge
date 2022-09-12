@@ -2,9 +2,9 @@
 console.log(sessionStorage)
 
 button= document.querySelector("button")
+a=document.querySelectorAll("input")
 
 button.addEventListener("click",()=>{
-    a=document.querySelectorAll("input")
     i=0;
     while (i<a.length) {
         sessionStorage.setItem(a[i].name,a[i].value)
