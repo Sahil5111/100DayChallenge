@@ -1,4 +1,5 @@
-console.log("hello world")
-colorsel=document.querySelector("input")
+colorsel=document.querySelector(".color")
 
-console.log(colorsel)
+colorsel.addEventListener("change",()=>{
+document.body.style.backgroundColor=colorsel.value
+})
