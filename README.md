@@ -5,3 +5,6 @@ DAY 1
 
 DAY 2
     for day 2 challenge: i took input color from user and changed color of the body 
+
+DAY 3
+    for day 3 challenge : i took input text from user and displayed the text on the body
