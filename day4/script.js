@@ -1,6 +1,7 @@
 const text = document.querySelector("input")
 const button = document.querySelector(".submit")
 
+
 button.addEventListener("click", () => {
     if (text.value === "") {
         console.log("invalid input")
@@ -12,7 +13,9 @@ button.addEventListener("click", () => {
         btn.textContent="delete"
         div.appendChild(btn)
         btn.addEventListener("click",()=>{
-            console.log("working")
+            par=btn.parentElement
+            console.log(par)
+            par.style.display="none"
         })
         document.body.appendChild(div)
         text.value = ""
