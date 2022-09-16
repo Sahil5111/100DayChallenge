@@ -8,3 +8,9 @@ DAY 2
 
 DAY 3
     for day 3 challenge : i took input text from user and displayed the text on the body
+
+Day 4 
+    for day 4 challenge : i used day 3 challenge and added a delete button which on click deletes the text 
+
+Day 5
+    completed day 4 challenge as it was incomplete due to other works
