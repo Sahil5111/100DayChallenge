@@ -14,63 +14,68 @@
 <body>
     <section class="vh-100" style="background-color: #e2d5de;">
         <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col col-xl-10">
-      
-              <div class="card" style="border-radius: 15px;">
-                <div class="card-body p-5">
-      
-                  <h6 class="mb-3">Awesome Todo List</h6>
-      
-                  <form class="d-flex justify-content-center align-items-center mb-4">
-                    <div class="form-outline flex-fill">
-                        <div class="form-outline">
-                            <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
-                            <label class="form-label" for="textAreaExample">Task</label>
-                          </div>
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-xl-10">
+
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+
+                            <h6 class="mb-3">Awesome Todo List</h6>
+
+                            <form class="d-flex justify-content-center align-items-center mb-4">
+                                <div class="form-outline flex-fill">
+                                    <div class="form-outline">
+                                        <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
+                                        <label class="form-label" for="textAreaExample">Task</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg ms-2 add">Add</button>
+                            </form>
+
+                            <ul class="list-group mb-0">
+                                <li
+                                    class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
+                                    <div class="d-flex align-items-center">
+                                        <input class="form-check-input me-2" type="checkbox" value=""
+                                            aria-label="..." />
+                                        Cras justo odio
+                                    </div>
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </li>
+                                <li
+                                    class="list-group-item d-flex d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
+                                    <div class="d-flex align-items-center">
+                                        <input class="form-check-input me-2" type="checkbox" value=""
+                                            aria-label="..." />
+                                        Morbi leo risus
+                                    </div>
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </li>
+                            </ul>
+
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-lg ms-2">Add</button>
-                  </form>
-      
-                  <ul class="list-group mb-0">
-                    <li
-                      class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
-                      <div class="d-flex align-items-center">
-                        <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." />
-                        Cras justo odio
-                      </div>
-                      <button type="button" class="btn-close"  aria-label="Close" ></button>
-                    </li>
-                    <li
-                      class="list-group-item d-flex d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
-                      <div class="d-flex align-items-center">
-                        <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." checked />
-                        <s>Dapibus ac facilisis in</s>
-                      </div>
-                      <button type="button" class="btn-close"  aria-label="Close" ></button>
-                    </li>
-                    <li
-                      class="list-group-item d-flex d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
-                      <div class="d-flex align-items-center">
-                        <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." />
-                        Morbi leo risus
-                      </div>
-                      <button type="button" class="btn-close"  aria-label="Close" ></button>
-                    </li>
-                  </ul>
-      
+
                 </div>
-              </div>
-      
             </div>
-          </div>
         </div>
-      </section>
+    </section>
+    <template>
+        <li
+            class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
+            <div class="d-flex align-items-center">
+                <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." />
+            </div>
+            <button type="button" class="btn-close" aria-label="Close"></button>
+        </li>
+
+
+    </template>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
-        <script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
