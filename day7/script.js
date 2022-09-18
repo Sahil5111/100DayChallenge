@@ -6,6 +6,7 @@ const template = document.querySelector('template')
 
 render()
 
+//display all todo from localstorage
 function render() {
     temp=ul.querySelectorAll("li")
     temp.forEach(element => {
@@ -15,10 +16,13 @@ function render() {
     if (localStorage.getItem('todo') !== null) {
         todo=JSON.parse(localStorage.getItem('todo'))
     }
+    let i=0
     todo.forEach(element => {
-        p=document.importNode(template.content,true)
-        p.querySelector('p').textContent=element
-        ul.append(p)
+        li=document.importNode(template.content,true)
+        li.querySelector('p').textContent=element
+        li.querySelector("li").setAttribute('id',JSON.stringify(i))
+        ul.append(li)
+        i++
     });
 }
 
@@ -38,7 +42,14 @@ ul.onclick = e => {
     }
     // x button logic
     if (selectedTagInUl.tagName.toLowerCase() === "button") {
-        selectedTagInUl.parentElement.style.visibility = "hidden";
+        id=selectedTagInUl.parentElement.getAttribute("id")
+        todo=[]
+        if (localStorage.getItem('todo') !== null) {
+            todo=JSON.parse(localStorage.getItem('todo'))
+        }
+        todo.splice(id,1)
+        localStorage.setItem('todo', JSON.stringify(todo))
+        render()
     }
 }
 
