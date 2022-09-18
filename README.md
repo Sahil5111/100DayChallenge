@@ -11,6 +11,7 @@ DAY 3
 
 Day 4 
     for day 4 challenge : i used day 3 challenge and added a delete button which on click deletes the text 
+
     status : incomplete
 
 Day 5
@@ -18,6 +19,8 @@ Day 5
 
 Day 6 
     for day 6 challenge : take key and value pair and add it to the local storage , show it on the dom on clicking show button and clear localstorage on clicking clear button
+
 Day 7
     for day 7 challenge : use all the knowledge from day 1-6 to create to do list using template at https://mdbootstrap.com/docs/standard/extended/to-do-list/
+    
     status : removing completed tasks from localstorage remaining 
