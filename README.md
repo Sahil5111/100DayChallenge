@@ -24,3 +24,6 @@ Day 7
     for day 7 challenge : use all the knowledge from day 1-6 to create to do list using template at https://mdbootstrap.com/docs/standard/extended/to-do-list/
     
     status : removing completed tasks from localstorage remaining 
+
+Day 8
+    for day 8 challenge : completed day 7's incomplete code
