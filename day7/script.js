@@ -8,19 +8,19 @@ render()
 
 //display all todo from localstorage
 function render() {
-    temp=ul.querySelectorAll("li")
+    temp = ul.querySelectorAll("li")
     temp.forEach(element => {
         element.remove()
     });
-    todo=[]
+    todo = []
     if (localStorage.getItem('todo') !== null) {
-        todo=JSON.parse(localStorage.getItem('todo'))
+        todo = JSON.parse(localStorage.getItem('todo'))
     }
-    let i=0
+    let i = 0
     todo.forEach(element => {
-        li=document.importNode(template.content,true)
-        li.querySelector('p').textContent=element
-        li.querySelector("li").setAttribute('id',JSON.stringify(i))
+        li = document.importNode(template.content, true)
+        li.querySelector('p').textContent = element
+        li.querySelector("li").setAttribute('id', JSON.stringify(i))
         ul.append(li)
         i++
     });
@@ -42,25 +42,29 @@ ul.onclick = e => {
     }
     // x button logic
     if (selectedTagInUl.tagName.toLowerCase() === "button") {
-        id=selectedTagInUl.parentElement.getAttribute("id")
-        todo=[]
+        id = selectedTagInUl.parentElement.getAttribute("id")
+        todo = []
         if (localStorage.getItem('todo') !== null) {
-            todo=JSON.parse(localStorage.getItem('todo'))
+            todo = JSON.parse(localStorage.getItem('todo'))
         }
-        todo.splice(id,1)
+        todo.splice(id, 1)
         localStorage.setItem('todo', JSON.stringify(todo))
         render()
     }
 }
 
 // adding text to local storage
-submit.onclick = () => {  
-    todo=[]
+submit.onclick = () => {
+    todo = []
     if (localStorage.getItem('todo') !== null) {
-        todo=JSON.parse(localStorage.getItem('todo'))
+        todo = JSON.parse(localStorage.getItem('todo'))
     }
-    todo.push(textarea.value)
-    localStorage.setItem('todo', JSON.stringify(todo))
-    textarea.value=''
-    render()
+    if (textarea.value === '') {
+        alert("input empty")
+    } else {
+        todo.push(textarea.value)
+        localStorage.setItem('todo', JSON.stringify(todo))
+        textarea.value = ''
+        render()
+    }
 }
