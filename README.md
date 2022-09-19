@@ -27,3 +27,8 @@ Day 7
 
 Day 8
     for day 8 challenge : completed day 7's incomplete code
+
+    status : check deployment here => https://sahil5111.github.io/100DayChallenge/
+
+Day 9
+    for day 9 challenge : took a template and displayed in dom when clicking a button
