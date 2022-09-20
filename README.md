@@ -1,5 +1,7 @@
 # 100DayChallenge
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sahil5111&label=Profile%20views&color=0e75b6&style=flat" alt="sahil5111" /> </p>
+
 DAY 1 
     took data using form and added it to session storage and displayed it in the console
 
@@ -31,3 +33,6 @@ Day 8
 
 Day 9
     took a template and displayed in dom when clicking a button
+
+Day 10 
+    made a simple digital clock
