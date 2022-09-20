@@ -1,33 +1,33 @@
 # 100DayChallenge
 
 DAY 1 
-    for day 1 challenge: take data from form and added it to session storage and displayed it in the console
+    took data using form and added it to session storage and displayed it in the console
 
 DAY 2
-    for day 2 challenge: take input color from user and changed color of the body 
+    took input color from user and changed color of the body 
 
 DAY 3
-    for day 3 challenge : take input text from user and displayed the text on the body
+    took input text from user and displayed the text on the body
 
 Day 4 
-    for day 4 challenge : i used day 3 challenge and added a delete button which on click deletes the text 
+    used day 3 challenge and added a delete button which on click deletes the text 
 
     status : incomplete
 
 Day 5
-    completed day 4 challenge as it was incomplete due to other works
+    completed day 4 challenge as it was incomplete
 
 Day 6 
-    for day 6 challenge : take key and value pair and add it to the local storage , show it on the dom on clicking show button and clear localstorage on clicking clear button
+    took key value pair and added it to the local storage , displayed it on the dom on clicking show button and cleared localstorage on clicking clear button
 
 Day 7
-    for day 7 challenge : use all the knowledge from day 1-6 to create to do list using template at https://mdbootstrap.com/docs/standard/extended/to-do-list/
+    used all the knowledge from day 1-6 to create to do list using template at https://mdbootstrap.com/docs/standard/extended/to-do-list/
     
     status : removing completed tasks from localstorage remaining 
 
 Day 8
-    for day 8 challenge : completed day 7's incomplete code
+    completed day 7's incomplete code
     check deployment here => https://sahil5111.github.io/100DayChallenge/
 
 Day 9
-    for day 9 challenge : took a template and displayed in dom when clicking a button
+    took a template and displayed in dom when clicking a button
