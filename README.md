@@ -36,3 +36,6 @@ Day 9
 
 Day 10 
     made a simple digital clock
+
+Day 11 
+    made a basic modal using dialog tag
