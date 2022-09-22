@@ -39,3 +39,6 @@ Day 10
 
 Day 11 
     made a basic modal using dialog tag
+
+Day 12
+    made a function to encode a given string <!-- solution to  very challenging quiz-->
