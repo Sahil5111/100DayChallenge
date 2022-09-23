@@ -42,3 +42,6 @@ Day 11
 
 Day 12
     made a function to encode a given string <!-- solution to  very challenging quiz-->
+
+Day 13
+    added a function to convert a string to code of esoteric language [More info](https://www.youtube.com/watch?v=hdHjjBS4cs8)
