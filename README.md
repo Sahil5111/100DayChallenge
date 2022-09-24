@@ -45,3 +45,6 @@ Day 12:
 
 Day 13:
     added a function to convert a string to code of esoteric language [More info](https://www.youtube.com/watch?v=hdHjjBS4cs8)
+
+Day 14:
+    updated todo list to remember check status check deployment here =>https://sahil5111.github.io/100DayChallenge/
