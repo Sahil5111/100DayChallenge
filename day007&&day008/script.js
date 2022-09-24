@@ -13,7 +13,7 @@ function render() {
         element.remove()
     });
     todo = []
-    checked=[]
+    checked = []
     if (localStorage.getItem('todo') !== null) {
         todo = JSON.parse(localStorage.getItem('todo'))
         checked = JSON.parse(localStorage.getItem('checked'))
@@ -22,7 +22,11 @@ function render() {
     todo.forEach(element => {
         li = document.importNode(template.content, true)
         li.querySelector('p').textContent = element
-        li.querySelector('input').checked=checked[i]
+        if (checked[i]) {
+            li.querySelector('input').checked = checked[i]
+            console.log("done")
+            li.querySelector('input').parentElement.parentElement.textDecoration = 'line-through'
+        }
         li.querySelector("li").setAttribute('id', JSON.stringify(i))
         ul.append(li)
         i++
@@ -38,14 +42,19 @@ ul.onclick = e => {
     // checkbox logic
     if (selectedTagInUl.tagName.toLowerCase() === "input") {
         id = selectedTagInUl.parentElement.parentElement.getAttribute("id")
-        console.log(id)
         if (localStorage.getItem('checked') !== null) {
             checked = JSON.parse(localStorage.getItem('checked'))
         }
-        if (checked[id]) {
+        if (selectedTagInUl.parentElement.style.textDecoration === '') {
             selectedTagInUl.parentElement.style.textDecoration = 'line-through'
+            checked[id]=true
+            localStorage.setItem('checked', JSON.stringify(checked))
+            console.log(localStorage)
         } else {
             selectedTagInUl.parentElement.style.textDecoration = ''
+            checked[id]=false
+            localStorage.setItem('checked', JSON.stringify(checked))
+            console.log(localStorage)
         }
     }
     // x button logic
@@ -53,9 +62,12 @@ ul.onclick = e => {
         id = selectedTagInUl.parentElement.getAttribute("id")
         if (localStorage.getItem('todo') !== null) {
             todo = JSON.parse(localStorage.getItem('todo'))
+            checked=JSON.parse(localStorage.getItem('checked'))
         }
         todo.splice(id, 1)
+        checked.splice(id,1)
         localStorage.setItem('todo', JSON.stringify(todo))
+        localStorage.setItem('checked', JSON.stringify(checked))
         render()
     }
 }
@@ -66,7 +78,7 @@ submit.onclick = () => {
     todo = []
     if (localStorage.getItem('todo') !== null) {
         todo = JSON.parse(localStorage.getItem('todo'))
-        checked=JSON.parse(localStorage.getItem('checked'))
+        checked = JSON.parse(localStorage.getItem('checked'))
     }
     if (textarea.value === '') {
         alert("input empty")
@@ -74,7 +86,7 @@ submit.onclick = () => {
         todo.push(textarea.value)
         checked.push(false)
         localStorage.setItem('todo', JSON.stringify(todo))
-        localStorage.setItem('checked',JSON.stringify(checked))
+        localStorage.setItem('checked', JSON.stringify(checked))
         textarea.value = ''
         render()
     }
