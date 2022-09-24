@@ -22,10 +22,9 @@ function render() {
     todo.forEach(element => {
         li = document.importNode(template.content, true)
         li.querySelector('p').textContent = element
-        if (checked[i]) {
-            li.querySelector('input').checked = checked[i]
-            console.log("done")
-            li.querySelector('input').parentElement.parentElement.textDecoration = 'line-through'
+        li.querySelector('input').checked = checked[i]
+        if (li.querySelector('input').checked) {
+            li.querySelector('input').parentElement.style.textDecoration = 'line-through'
         }
         li.querySelector("li").setAttribute('id', JSON.stringify(i))
         ul.append(li)
@@ -49,12 +48,10 @@ ul.onclick = e => {
             selectedTagInUl.parentElement.style.textDecoration = 'line-through'
             checked[id]=true
             localStorage.setItem('checked', JSON.stringify(checked))
-            console.log(localStorage)
         } else {
             selectedTagInUl.parentElement.style.textDecoration = ''
             checked[id]=false
             localStorage.setItem('checked', JSON.stringify(checked))
-            console.log(localStorage)
         }
     }
     // x button logic
