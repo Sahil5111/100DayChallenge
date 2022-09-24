@@ -13,13 +13,16 @@ function render() {
         element.remove()
     });
     todo = []
+    checked=[]
     if (localStorage.getItem('todo') !== null) {
         todo = JSON.parse(localStorage.getItem('todo'))
+        checked = JSON.parse(localStorage.getItem('checked'))
     }
     let i = 0
     todo.forEach(element => {
         li = document.importNode(template.content, true)
         li.querySelector('p').textContent = element
+        li.querySelector('input').checked=checked[i]
         li.querySelector("li").setAttribute('id', JSON.stringify(i))
         ul.append(li)
         i++
@@ -34,7 +37,12 @@ ul.onclick = e => {
     selectedTagInUl = e.target
     // checkbox logic
     if (selectedTagInUl.tagName.toLowerCase() === "input") {
-        if (selectedTagInUl.checked) {
+        id = selectedTagInUl.parentElement.parentElement.getAttribute("id")
+        console.log(id)
+        if (localStorage.getItem('checked') !== null) {
+            checked = JSON.parse(localStorage.getItem('checked'))
+        }
+        if (checked[id]) {
             selectedTagInUl.parentElement.style.textDecoration = 'line-through'
         } else {
             selectedTagInUl.parentElement.style.textDecoration = ''
@@ -43,7 +51,6 @@ ul.onclick = e => {
     // x button logic
     if (selectedTagInUl.tagName.toLowerCase() === "button") {
         id = selectedTagInUl.parentElement.getAttribute("id")
-        todo = []
         if (localStorage.getItem('todo') !== null) {
             todo = JSON.parse(localStorage.getItem('todo'))
         }
@@ -55,15 +62,19 @@ ul.onclick = e => {
 
 // adding text to local storage
 submit.onclick = () => {
+    checked = []
     todo = []
     if (localStorage.getItem('todo') !== null) {
         todo = JSON.parse(localStorage.getItem('todo'))
+        checked=JSON.parse(localStorage.getItem('checked'))
     }
     if (textarea.value === '') {
         alert("input empty")
     } else {
         todo.push(textarea.value)
+        checked.push(false)
         localStorage.setItem('todo', JSON.stringify(todo))
+        localStorage.setItem('checked',JSON.stringify(checked))
         textarea.value = ''
         render()
     }
