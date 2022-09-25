@@ -1,5 +1,5 @@
 colorsel=document.querySelector(".color")
 
-colorsel.addEventListener("change",()=>{
+colorsel.addEventListener("input",()=>{
 document.body.style.backgroundColor=colorsel.value
 })
