@@ -48,3 +48,6 @@ Day 13:
 
 Day 14:
     updated todo list to remember check status check deployment here =>https://sahil5111.github.io/100DayChallenge/
+
+Day 15:
+    added searchbar logic to search among users where user data is collected using an api call
