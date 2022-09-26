@@ -51,3 +51,6 @@ Day 14:
 
 Day 15:
     added searchbar logic to search among users where user data is collected using an api call
+
+Day 16:
+    added audio tag and download html
