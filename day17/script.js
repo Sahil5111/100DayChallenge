@@ -5,7 +5,7 @@ button.addEventListener("click", () => {
         p => {
             if (p === 'granted') {
                 let text = new Notification('Example Notification', {
-                    body: 'this is more text',
+                    body: 'button was clicked',
                     tag: "this is tag"
                 })
 
