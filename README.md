@@ -57,3 +57,6 @@ Day 16:
 
 Day 17:
     added a button which notifies user when clicked
+
+Day 18:
+    added code to read xlsx file and plot choropleth map
