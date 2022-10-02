@@ -60,3 +60,6 @@ Day 17:
 
 Day 18:
     added code to read xlsx file and plot choropleth map
+
+Day 19:
+    modified Day 18 code to print choropleth map using data in onion.xlsx and wheat.xlsx map gets printed on firefox(common browser in my college)
