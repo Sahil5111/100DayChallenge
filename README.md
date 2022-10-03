@@ -63,3 +63,6 @@ Day 18:
 
 Day 19:
     modified Day 18 code to print choropleth map using data in onion.xlsx and wheat.xlsx map gets printed on firefox(common browser in my college)
+
+Day 20:
+    did research on bootstrap popovers which will be used in upcoming update for currently deployed todo list
