@@ -66,3 +66,6 @@ Day 19:
 
 Day 20:
     did research on bootstrap popovers which will be used in upcoming update for currently deployed todo list
+
+Day 21:
+    added code to simulate non restoring unsigned division
