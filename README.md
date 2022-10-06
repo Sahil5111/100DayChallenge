@@ -69,3 +69,6 @@ Day 20:
 
 Day 21:
     added code to simulate non restoring unsigned division
+
+Day 22:
+    resolved an error in render function which deletes all todo if length of checked and todo is not same
