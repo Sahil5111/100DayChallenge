@@ -17,6 +17,9 @@ function render() {
     if (localStorage.getItem('todo') !== null) {
         todo = JSON.parse(localStorage.getItem('todo'))
         checked = JSON.parse(localStorage.getItem('checked'))
+        if (todo.length!=checked.length) {
+            localStorage.clear()
+        }
     }
     let i = 0
     todo.forEach(element => {
