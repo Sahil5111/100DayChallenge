@@ -72,3 +72,6 @@ Day 21:
 
 Day 22:
     resolved an error in render function which deletes all todo if length of checked and todo is not same
+
+Day 23 :
+    added code to simulate alu written in c it has two hard coded inputs and it performs addition subraction etc. based on input string of bits
