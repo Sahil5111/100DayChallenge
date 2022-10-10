@@ -75,3 +75,6 @@ Day 22:
 
 Day 23 :
     added code to simulate alu written in c it has two hard coded inputs and it performs addition subraction etc. based on input string of bits
+
+Day 24:
+    added player.tscn and gdscript to move player in a tilemap (Godot engine can be used to access player)
