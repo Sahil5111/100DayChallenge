@@ -78,3 +78,6 @@ Day 23 :
 
 Day 24:
     added player.tscn and gdscript to move player in a tilemap (Godot engine can be used to access player)
+
+Day 25:
+    added mini project
