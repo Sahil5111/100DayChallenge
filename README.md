@@ -81,3 +81,9 @@ Day 24:
 
 Day 25:
     added mini project
+
+Day 26:
+    updated mini project
+
+Day 27:
+    added java applet
