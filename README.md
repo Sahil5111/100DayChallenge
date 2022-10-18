@@ -87,3 +87,6 @@ Day 26:
 
 Day 27:
     added java applet
+
+Day 28:
+    added project with cool animation
