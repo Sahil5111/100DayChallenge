@@ -29,7 +29,7 @@ Day 7:
 
 Day 8:
     completed day 7's incomplete code
-    check deployment here => https://sahil5111.github.io/100DayChallenge/
+    check deployment here => https://sahil5111.github.io/100DayChallenge/ currently unpublished
 
 Day 9:
     took a template and displayed in dom when clicking a button
