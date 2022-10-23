@@ -90,3 +90,6 @@ Day 27:
 
 Day 28:
     added project with cool animation
+
+Day 29,30:
+    added react directory where changes will be made as I learn react
