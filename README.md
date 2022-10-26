@@ -93,3 +93,6 @@ Day 28:
 
 Day 29,30:
     added react directory where changes will be made as I learn react
+
+Day 31:
+    made 2 constellation (aries and scorpio ) using p5.js CG_Mini_project
