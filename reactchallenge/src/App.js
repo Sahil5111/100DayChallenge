@@ -23,7 +23,11 @@ export default function App() {
         <div>
             <Navbar />
             <Hero/>
+            <div className="container">
+              <div className="row">
             {card}
+              </div>
+            </div>
         </div>
     )
 }

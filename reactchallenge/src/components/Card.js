@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Card(props) {
     return (
-        <div className="card">
+        <div className="card col-4 mx-2">
             <img src={props.img} alt="hero" className="card--image" />
             <div className="card--stats">
                 <img src="../images/star.png" alt="star" className="card--star" />
