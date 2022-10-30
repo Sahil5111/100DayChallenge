@@ -96,3 +96,6 @@ Day 29,30:
 
 Day 31:
     made 2 constellation (aries and scorpio ) using p5.js CG_Mini_project
+
+Day 32 :
+    completed a react challenge its past 12 so technically day 32 and 33 😅

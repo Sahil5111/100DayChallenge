@@ -31,3 +31,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
+## install all the dependencies 
+###  `npm install`
+
+note : you must have node and npm installed in your local device
