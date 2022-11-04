@@ -102,3 +102,6 @@ Day 32 ,33 :
 
 Day 34:
     inheritance by java
+
+Day 35:
+    solved some problems in python
