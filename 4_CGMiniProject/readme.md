@@ -9,4 +9,4 @@ downloads all the dependencies and stores it in node_modules directory
 ### now you can simply open index file with live server to see the project
 
 ## docs 
-### [p5.js](https://p5js.org/reference/)
+[p5.js](https://p5js.org/reference/)

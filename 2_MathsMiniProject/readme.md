@@ -9,7 +9,7 @@ this will create a directory named env you will have to start this environment b
 
 step 1: `cd env/scripts` <!--move to scripts -->
 step 2: `./activate` <!-- activate the environment  -->
-step 3: `../../` <!-- move to base directory -->
+step 3: `cd ../../` <!-- move to base directory -->
 
 
 ## 2_ download all the dependencies 
@@ -25,5 +25,5 @@ after installation of all the dependencies you can run the following command to 
 ### `jupyter notebook`
 
 # following command works on windows command may vary for diffrent os
-## [Virtual_env_docs](https://docs.python.org/3/library/venv.html)
-## [jupyterNotebook_docs](https://jupyter-notebook.readthedocs.io/en/stable/)
+[Virtual_env_docs](https://docs.python.org/3/library/venv.html)
+[jupyterNotebook_docs](https://jupyter-notebook.readthedocs.io/en/stable/)
