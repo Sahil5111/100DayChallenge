@@ -1,7 +1,8 @@
 function submitForm() {
     let input = document.querySelector(".input").value.toString()
     const textarea = document.querySelector("textarea")
-    fetch("https://api.openweathermap.org/data/2.5/weather?q="+input+"&appid=a031a7adf8458c0a79fa637b954a5f8d").then(Response=>{
+    apikey="" //your api key goes here
+    fetch("https://api.openweathermap.org/data/2.5/weather?q="+input+"&appid="+apikey).then(Response=>{
         return Response.json()
     }).then(e=>{
         main=e.weather[0].main.toString()
