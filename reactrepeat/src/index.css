@@ -12,3 +12,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.display--color{
+  width: 5em;
+  height: 5em;
+}
