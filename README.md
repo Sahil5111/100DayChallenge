@@ -105,3 +105,9 @@ Day 34:
 
 Day 35:
     solved some problems in python
+
+Day 36:
+    added mini project demo
+
+Day 37:
+    started a react project to repeat all the challenges from day 1 to day 30 in react
