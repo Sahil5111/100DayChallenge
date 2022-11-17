@@ -104,13 +104,37 @@ Day 34:
     inheritance by java
 
 Day 35:
-    solved some problems in python
+    updated java mini project
 
 Day 36:
-    added mini project demo
+    solved some problems in python
 
 Day 37:
+    added readme to mini projects <!--as friends were facing problem to start project on their local devices -->
+
+Day 38:
+    added mini project demo
+
+Day 39:
     started a react project to repeat all the challenges from day 1 to day 30 in react
 
-check deployment for react meme generator challenge [here](https://637244b0a5d3273e669bd68a--fabulous-croquembouche-489c39.netlify.app/)
-check deployment for react md writer challenge [mdWriter](https://63748cc9c4321717913e4823--warm-cheesecake-318fd4.netlify.app/)
+Day 40:
+    made digital clock in react
+
+Day 41:
+    repeated day 1 program in react using useState hook
+
+Day 42:
+    added a login component in react
+
+Day 43:
+    check deployment for react meme generator challenge [here](https://637244b0a5d3273e669bd68a--fabulous-croquembouche-489c39.netlify.app/)
+
+Day 44:
+    fixed layout issues on meme generator and deployed the project
+
+Day 45:
+    changed website urls to latest urls
+
+Day 46:
+    check deployment for react md writer challenge [mdWriter](https://63748cc9c4321717913e4823--warm-cheesecake-318fd4.netlify.app/)
