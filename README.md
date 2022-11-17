@@ -138,3 +138,6 @@ Day 45:
 
 Day 46:
     check deployment for react md writer challenge [mdWriter](https://63748cc9c4321717913e4823--warm-cheesecake-318fd4.netlify.app/)
+
+Day 47:
+    went through all the previous projects to check for bugs and errors
