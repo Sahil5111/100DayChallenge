@@ -141,3 +141,6 @@ Day 46:
 
 Day 47:
     went through all the previous projects to check for bugs and errors
+
+Day 48:
+    made a custom react hook which works like useState but it adds data to the local storage as the value updates or gets data back as page refreshes
