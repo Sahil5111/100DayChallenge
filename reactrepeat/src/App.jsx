@@ -2,6 +2,7 @@ import ColorChanger from "./Components/Day002"
 import Clock from "./Components/Day010"
 import Day001 from "./Components/Day001"
 import Login from "./Components/Login"
+import CustomHookTest from "./Components/CustomHookTest"
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <ColorChanger /> */}
       {/* <Clock/> */}
       {/* <Day001/> */}
-      <Login/>
+      {/* <Login/> */}
+      <CustomHookTest/>
     </div>
   )
 }
