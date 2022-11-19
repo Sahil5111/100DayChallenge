@@ -77,70 +77,82 @@ Day 23 :
     added code to simulate alu written in c it has two hard coded inputs and it performs addition subraction etc. based on input string of bits
 
 Day 24:
-    added player.tscn and gdscript to move player in a tilemap (Godot engine can be used to access player)
+    ignored unnecessary files and reviewed code
 
 Day 25:
-    added mini project
+    added player.tscn and gdscript to move player in a tilemap (Godot engine can be used to access player)
 
 Day 26:
-    updated mini project
+    added mini project
 
 Day 27:
-    added java applet
+    updated mini project
 
 Day 28:
+    added java applet
+
+Day 29:
     added project with cool animation
 
-Day 29,30:
+Day 30,31 :
     added react directory where changes will be made as I learn react
 
-Day 31:
+Day 32:
+    modified some css properties
+
+Day 33:
     made 2 constellation (aries and scorpio ) using p5.js CG_Mini_project
 
-Day 32 ,33 :
+Day 34:
+    completed header component
+
+Day 35 ,36 :
     completed a react challenge its past 12 so technically day 32 and 33 😅
 
-Day 34:
+Day 37:
     inheritance by java
 
-Day 35:
+Day 38:
     updated java mini project
 
-Day 36:
+Day 39:
     solved some problems in python
 
-Day 37:
+Day 40:
     added readme to mini projects <!--as friends were facing problem to start project on their local devices -->
 
-Day 38:
+Day 41:
     added mini project demo
 
-Day 39:
+Day 42:
     started a react project to repeat all the challenges from day 1 to day 30 in react
 
-Day 40:
+Day 43:
     made digital clock in react
 
-Day 41:
+Day 44:
     repeated day 1 program in react using useState hook
 
-Day 42:
+Day 45:
     added a login component in react
 
-Day 43:
+Day 46:
     check deployment for react meme generator challenge [here](https://637244b0a5d3273e669bd68a--fabulous-croquembouche-489c39.netlify.app/)
 
-Day 44:
+Day 47:
     fixed layout issues on meme generator and deployed the project
 
-Day 45:
+Day 48:
     changed website urls to latest urls
 
-Day 46:
+Day 49:
     check deployment for react md writer challenge [mdWriter](https://63748cc9c4321717913e4823--warm-cheesecake-318fd4.netlify.app/)
 
-Day 47:
+Day 50:
     went through all the previous projects to check for bugs and errors
 
-Day 48:
+Day 51:
     made a custom react hook which works like useState but it adds data to the local storage as the value updates or gets data back as page refreshes
+
+Day 52:
+    checked all the previous commits and changed date of challenge 
