@@ -156,3 +156,12 @@ Day 51:
 
 Day 52:
     checked all the previous commits and changed date of challenge 
+
+Day 53:
+    started new react project as challenge
+
+Day 54:
+    completed react project
+
+Day 55:
+    wrote c code for quicksort 
