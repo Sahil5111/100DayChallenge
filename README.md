@@ -70,3 +70,4 @@ If the Challenge still continues I will love to use React Native
 054. completed react project
 055. wrote c code for quicksort
 056. updated mdgenerator and tenzies game and renamed a directory
+057. learned about intersection observer
