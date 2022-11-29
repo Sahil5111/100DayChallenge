@@ -71,3 +71,5 @@ If the Challenge still continues I will love to use React Native
 055. wrote c code for quicksort
 056. updated mdgenerator and tenzies game and renamed a directory
 057. learned about intersection observer
+058. Created a basic api with two endpoints to share url and group of urls in django
+059. created a header file to work with stack in c
