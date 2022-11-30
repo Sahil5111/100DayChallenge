@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 int n, top = -1, *stack;
 
 void push(int x)
@@ -22,6 +24,7 @@ int pop()
     {
         a = stack[top];
         stack[top] = 0;
+        top--;
         return a;
     }
 }
