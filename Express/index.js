@@ -2,11 +2,11 @@ const express = require('express')
 const app = express()
 const port = 5500
 
-const path = require('path')
+app.set('view engine','ejs')
 
 app.get("/", (req, res) => {
     console.log("sending index file")
-    res.sendFile(path.join(__dirname, "/index.html"))
+    res.render('index',{'name':'sahil'})
 })
 
 app.listen(port, () => {
