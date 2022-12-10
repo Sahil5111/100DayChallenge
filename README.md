@@ -80,4 +80,4 @@ If the Challenge still continues I will love to use React Native
 063. created day 058s api with express
 064. deployed reactchallenge(tenzies)
 065. Breshanham line drawing algorithm
-066. Breshanhams Ellipse Drawing.c algorithm 
+066. Breshanham ellipse drawing algorithm
