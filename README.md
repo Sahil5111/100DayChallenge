@@ -50,7 +50,7 @@ If the Challenge still continues I will love to use React Native
 033. made 2 constellations (Aries and Scorpio ) using p5.js CG_Mini_project
 034. completed header component
 035. 
-036. completed a react challenge, it the past 12 so technically days 32 and 33 😅
+036. completed a react challenge, it the past 12 so technically days 35 and 36 😅
 037. inheritance by java
 038. updated java mini project
 039. solved some problems in python
