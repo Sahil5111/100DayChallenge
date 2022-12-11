@@ -81,3 +81,4 @@ If the Challenge still continues I will love to use React Native
 064. deployed reactchallenge(tenzies)
 065. Breshanham line drawing algorithm
 066. Breshanham ellipse drawing algorithm
+067. Modified code to fetch images from django api project and display images

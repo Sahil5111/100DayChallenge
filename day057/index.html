@@ -9,21 +9,40 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
     <title>day 57</title>
-    <style>.col{opacity: 0;} .show{transform: translateX(0); opacity: 1;}</style>
+    <style>
+        .col {
+            height: 289px;
+            width: 284px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            opacity: 0;
+        }
+
+        .show {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        .container::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container border my-5 py-3" style="width:500px; height: 500px; overflow-y: scroll;">
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
-        <div class="col border" style="width:350px; height:100px;">Text</div>
+    <div class="container border my-5 py-3" style="width:310px; height: 750px; overflow-y: scroll; ">
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
+        <div class="col border"></div>
     </div>
     <script src="./script.js"></script>
 </body>
