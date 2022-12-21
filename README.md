@@ -88,3 +88,4 @@ If the Challenge still continues I will love to use React Native
 071.
 072. added code for cohen sutherland line clipping algorithm
 073. tried pywhatkit to schedule whatsapp message
+074. tried pyehatkit to turn images to ascii art
