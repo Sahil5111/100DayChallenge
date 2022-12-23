@@ -89,3 +89,5 @@ If the Challenge still continues I will love to use React Native
 072. added code for cohen sutherland line clipping algorithm
 073. tried pywhatkit to schedule whatsapp message
 074. tried pyehatkit to turn images to ascii art
+075. Learned about webpack bundler and made a config to workd with three js via adding html loader and css loaders
+076. Made a rotating cube using three js
