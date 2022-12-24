@@ -8,6 +8,7 @@ In the end, I will try to build a simple rest API using Express and Django
 If the Challenge still continues I will love to use React Native
 
 ### Deployments
+- [3D website](https://63a5a9c18e139b6e64c194d1--splendid-torte-794b1c.netlify.app/) 
 - [MD Writer](https://6380ee9ba04cfb4970e707f8--warm-cheesecake-318fd4.netlify.app/)
 - [Meme Generator](https://637244b0a5d3273e669bd68a--fabulous-croquembouche-489c39.netlify.app/)
 - [To-Do list](https://sahil5111.github.io/100DayChallenge/)
@@ -91,3 +92,4 @@ If the Challenge still continues I will love to use React Native
 074. tried pyehatkit to turn images to ascii art
 075. Learned about webpack bundler and made a config to workd with three js via adding html loader and css loaders
 076. Made a rotating cube using three js
+077. added a bouncing sphere and directional light to the three js project
