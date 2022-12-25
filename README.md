@@ -66,7 +66,7 @@ If the Challenge still continues I will love to use React Native
 048. changed website URLs to the latest URLs
 049. check deployment for react MD writer challenge [mdWriter](https://6380ee9ba04cfb4970e707f8--warm-cheesecake-318fd4.netlify.app/)
 050. went through all the previous projects to check for bugs and errors
-051. made a custom react hook which works like useState but it adds data to the local storage as the value updates or gets data back as page refreshes
+051. made a custom react hook which works like useState but it adds data to the local storage as the value updates or gets data back as the page refreshes
 052. checked all the previous commits and changed the date of the challenge
 053. started a new react project as a challenge
 054. completed react project
@@ -77,19 +77,20 @@ If the Challenge still continues I will love to use React Native
 059. created a header file to work with stack in c
 060. resolved an error in zstack.h
 061. started a basic express project 
-062. learned to use view engine to render html and pass objects from server to views
-063. created day 058s api with express
+062. learned to use a view engine to render HTML and pass objects from server to views
+063. created day 058s API with Express
 064. deployed reactchallenge(tenzies)
 065. Breshanham line drawing algorithm
 066. Breshanham ellipse drawing algorithm
-067. Modified code to fetch images from django api project and display images
-068. added logic to fetch image when last image is reached (infinite scroll)
-069. Modified code so that data can be shared across diffrent ports
+067. Modified code to fetch images from Django API project and display images
+068. added logic to fetch image when the last image is reached (infinite scroll)
+069. Modified code so that data can be shared across different ports
 070. added code for breshanham circle drawing algorithm
 071.
 072. added code for cohen sutherland line clipping algorithm
-073. tried pywhatkit to schedule whatsapp message
-074. tried pyehatkit to turn images to ascii art
-075. Learned about webpack bundler and made a config to workd with three js via adding html loader and css loaders
+073. tried pywhatkit to schedule WhatsApp message
+074. tried pyehatkit to turn images to ASCII art
+075. Learned about webpack bundler and made a config to workd with three js via adding HTML loader and CSS loaders
 076. Made a rotating cube using three js
 077. added a bouncing sphere and directional light to the three js project
+078. added a cool lambo [asset](https://sketchfab.com/3d-models/2021-lamborghini-countach-lpi-800-4-d76b94884432422b966d1a7f8815afb5)
