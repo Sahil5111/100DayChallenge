@@ -94,3 +94,4 @@ If the Challenge still continues I will love to use React Native
 076. Made a rotating cube using three js
 077. added a bouncing sphere and directional light to the three js project
 078. added a cool lambo [asset](https://sketchfab.com/3d-models/2021-lamborghini-countach-lpi-800-4-d76b94884432422b966d1a7f8815afb5)
+079. started new project and added all the required assets
