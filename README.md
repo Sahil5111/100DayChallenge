@@ -8,6 +8,7 @@ In the end, I will try to build a simple rest API using Express and Django
 If the Challenge still continues I will love to use React Native
 
 ### Deployments
+- [Solar System](https://63ad5bd7ce63a77a2ab59706--regal-marzipan-ccf6cd.netlify.app/)
 - [3D website](https://63a5a9c18e139b6e64c194d1--splendid-torte-794b1c.netlify.app/) 
 - [MD Writer](https://6380ee9ba04cfb4970e707f8--warm-cheesecake-318fd4.netlify.app/)
 - [Meme Generator](https://637244b0a5d3273e669bd68a--fabulous-croquembouche-489c39.netlify.app/)
@@ -45,12 +46,12 @@ If the Challenge still continues I will love to use React Native
 027. updated mini project
 028. added java applet
 029. added project with cool animation
-030. 
+030. --
 031. added react directory where changes will be made as I learn to react
 032. modified some CSS properties
 033. made 2 constellations (Aries and Scorpio ) using p5.js CG_Mini_project
 034. completed header component
-035. 
+035. --
 036. completed a react challenge, it the past 12 so technically days 35 and 36 😅
 037. inheritance by java
 038. updated java mini project
@@ -82,16 +83,18 @@ If the Challenge still continues I will love to use React Native
 064. deployed reactchallenge(tenzies)
 065. Breshanham line drawing algorithm
 066. Breshanham ellipse drawing algorithm
-067. Modified code to fetch images from Django API project and display images
+067. Modified code to fetch images from the Django API project and display images
 068. added logic to fetch image when the last image is reached (infinite scroll)
 069. Modified code so that data can be shared across different ports
 070. added code for breshanham circle drawing algorithm
-071.
+071. --
 072. added code for cohen sutherland line clipping algorithm
 073. tried pywhatkit to schedule WhatsApp message
-074. tried pyehatkit to turn images to ASCII art
-075. Learned about webpack bundler and made a config to workd with three js via adding HTML loader and CSS loaders
+074. tried pywhatkit to turn images to ASCII art
+075. Learned about webpack bundler and made a config to work with three js via adding HTML loader and CSS loaders
 076. Made a rotating cube using three js
 077. added a bouncing sphere and directional light to the three js project
-078. added a cool lambo [asset](https://sketchfab.com/3d-models/2021-lamborghini-countach-lpi-800-4-d76b94884432422b966d1a7f8815afb5)
-079. started new project and added all the required assets
+078. added a cool Lambo [asset](https://sketchfab.com/3d-models/2021-lamborghini-countach-lpi-800-4-d76b94884432422b966d1a7f8815afb5)
+079. started a new project and added all the required assets
+080. completed solar system
+081. added rings to Saturn and Uranus and deployed project [check deployment here](https://63ad5bd7ce63a77a2ab59706--regal-marzipan-ccf6cd.netlify.app/)

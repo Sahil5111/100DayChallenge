@@ -61,9 +61,9 @@ scene.background=cubeTextureloader.load(
 )
 
 
-// Helpers
-const AxisHelper = new THREE.AxesHelper(10)
-scene.add(AxisHelper)
+// // Helpers
+// const AxisHelper = new THREE.AxesHelper(64)
+// scene.add(AxisHelper)
 
 
 
@@ -78,28 +78,40 @@ const sun = new THREE.Mesh(sungeometry, sunmesh)
 scene.add(sun)
 
 
-function createPlanet(radius,distance,texture,angle) {
+function createPlanet(radius,distance,texture,angle,ring,r1,r2,rangle) {
     const PlanetGeometry = new THREE.SphereGeometry(radius)
     const PlanetMesh=new THREE.MeshStandardMaterial({
         map:textureLoader.load(texture)
     })
     const planet = new THREE.Mesh(PlanetGeometry,PlanetMesh)
     planet.position.set(-1*distance,0,0)
-    
     const object=new THREE.Object3D()
+    if(angle){
+        object.rotateZ(angle*Math.PI/180)
+    }
+    if(ring){
+        const RingGeometry = new THREE.RingGeometry(r1,r2)
+        const RingMesh= new THREE.MeshStandardMaterial({
+            map:textureLoader.load(ring),
+            side:THREE.DoubleSide
+        })
+        const Ring = new THREE.Mesh(RingGeometry,RingMesh)
+        Ring.rotateX((1/2-rangle/180)*Math.PI)
+        planet.add(Ring)
+    }
     scene.add(object)
     object.add(planet)
     return {object,planet}
 }
 
-const mercury = createPlanet(3.2,28,mercuryTexture)
-const venus = createPlanet(5.8,44,venusTexture)
-const earth = createPlanet(6,62,earthTexture)
-const mars = createPlanet(4,78,marsTexture)
-const jupiter = createPlanet(12,100,jupiterTexture)
-const saturn = createPlanet(10,138,saturnTexture)
-const uranus = createPlanet(7,176,uranusTexture)
-const neptune = createPlanet(7,200,neptuneTexture)
+const mercury = createPlanet(3.2,28,mercuryTexture,6.3)
+const venus = createPlanet(5.8,44,venusTexture,2.2)
+const earth = createPlanet(6,62,earthTexture,1.6)
+const mars = createPlanet(4,78,marsTexture,1.7)
+const jupiter = createPlanet(12,100,jupiterTexture,0.3)
+const saturn = createPlanet(10,138,saturnTexture,0.9,saturnRingTexture,10,20,27)
+const uranus = createPlanet(7,176,uranusTexture,1,uranusRingTexture,7,12)
+const neptune = createPlanet(7,200,neptuneTexture,0.7)
 const pluto = createPlanet(2.8,216,plutoTexture)
 
 
