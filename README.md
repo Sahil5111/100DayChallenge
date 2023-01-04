@@ -101,3 +101,4 @@ If the Challenge still continues I will love to use React Native
 082. Organized folders
 083. Added code for DDA line drawing algorithm
 084. added code for scan line polygon filling algorithm
+085. added code for sudherland hodgeman polygon clipping algorithm
