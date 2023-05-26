@@ -7,7 +7,7 @@ In this challenge, I will try to get comfortable with js and will try to learn i
 In the end, I will try to build a simple rest API using Express and Django 
 If the Challenge still continues I will love to use React Native
 
-### Deployments
+### Deployments  (Few of these links might not work)
 - [Solar System](https://63ad5bd7ce63a77a2ab59706--regal-marzipan-ccf6cd.netlify.app/)
 - [3D website](https://63a5a9c18e139b6e64c194d1--splendid-torte-794b1c.netlify.app/) 
 - [MD Writer](https://6380ee9ba04cfb4970e707f8--warm-cheesecake-318fd4.netlify.app/)
