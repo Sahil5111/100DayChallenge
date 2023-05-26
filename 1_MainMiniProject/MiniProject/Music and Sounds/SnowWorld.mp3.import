@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/SnowWorld.mp3-5fe3ff66d536f7eb3367d3ad0c055d66.mp3str"
+
+[deps]
+
+source_file="res://Music and Sounds/SnowWorld.mp3"
+dest_files=[ "res://.import/SnowWorld.mp3-5fe3ff66d536f7eb3367d3ad0c055d66.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

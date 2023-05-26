@@ -1,7 +1,7 @@
 var col = document.querySelectorAll(".col")
 const container =document.querySelector(".container")
 
-fetch("http://localhost:5000/10")
+fetch("http://localhost:8000/10")
 .then(response=> response.json())
 .then(response=>{
     let i=0
@@ -27,7 +27,7 @@ const last= new IntersectionObserver(e=>{
     if(!lastcard.isIntersecting) return
     let div=document.createElement('div')
     div.className='col border'
-    fetch("http://localhost:5000")
+    fetch("http://localhost:8000")
         .then(response => response.json())
         .then(response => div.style.backgroundImage='url('+response.url.toString()+')')
     container.appendChild(div)

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/grassWorld.mp3-5295c013a84b9f16c64e6494f161554c.mp3str"
+
+[deps]
+
+source_file="res://Music and Sounds/grassWorld.mp3"
+dest_files=[ "res://.import/grassWorld.mp3-5295c013a84b9f16c64e6494f161554c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
