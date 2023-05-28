@@ -5,3 +5,4 @@
 001.  Roman to Integer
 002.  Two Sum
 003.  Add Two Numbers
+004.  Palindrome Number
