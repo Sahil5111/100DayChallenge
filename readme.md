@@ -6,3 +6,9 @@
 002.  Two Sum
 003.  Add Two Numbers
 004.  Palindrome Number
+005.  longest Common Prefix
+006.  Valid Parentheses
+007.  Merge Two Sorted Lists
+008.  Remove Duplicates from Sorted Array
+009.  Length of Last Word
+010.  Median of Two Sorted Arrays
