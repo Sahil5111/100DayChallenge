@@ -14,3 +14,4 @@
 010.  Median of Two Sorted Arrays
 011.  Container With Most Water
 012.  Three Sum Problem
+013.  Remove Element
